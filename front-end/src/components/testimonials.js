@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 
+import man from '../assets/man.png';
+import woman from '../assets/woman.png';
+
 const StyledSection = styled.section`
   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
   .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -73,7 +76,7 @@ const Testimonials = () => {
     <StyledSection className="py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
-          <h2 className="text-4xl text-center font-bold text-gray-900">What our happy clients says!</h2>
+          <h2 className="text-4xl text-center font-bold text-gray-900">Hear out from our clients!</h2>
         </div>
         <div className="swiper mySwiper">
           <div className="swiper-wrapper w-max">
@@ -93,9 +96,9 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                  <img className="h-10 w-10" src="" alt="avatar" />
+                  <img className="h-10 w-10" src={woman} alt="avatar" />
                   <div className="block">
-                    <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Magnum Waihwa</h5>
+                    <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Lucy Waihwa</h5>
                     <span className="text-sm leading-4 text-gray-500">CEO</span>
                   </div>
                 </div>
@@ -117,7 +120,7 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                  <img className="h-10 w-10" src="" alt="avatar" />
+                  <img className="h-10 w-10" src={man} alt="avatar" />
                   <div className="block">
                     <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Josphat Munene</h5>
                     <span className="text-sm leading-4 text-gray-500">Member</span>
@@ -140,9 +143,9 @@ const Testimonials = () => {
                   Empire Dance Kenya has been a life-changing experience for me. When I first joined, I was looking for a place to improve my dance skills, but I found so much more. The instructors are incredibly talented and supportive, and they create a welcoming environment where everyone feels like family. </p>
                 </div>
                 <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                  <img className="h-10 w-10" src="" alt="avatar" />
+                  <img className="h-10 w-10" src={man} alt="avatar" />
                   <div className="block">
-                    <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Martin Nuthu</h5>
+                    <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Mathew Doe</h5>
                     <span className="text-sm leading-4 text-gray-500">Client</span>
                   </div>
                 </div>
@@ -163,7 +166,7 @@ const Testimonials = () => {
                   Empire Dance Kenya has been a life-changing experience for me. When I first joined, I was looking for a place to improve my dance skills, but I found so much more. The instructors are incredibly talented and supportive, and they create a welcoming environment where everyone feels like family. </p>
                 </div>
                 <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
-                  <img className="h-10 w-10" src="" alt="avatar" />
+                  <img className="h-10 w-10" src={woman} alt="avatar" />
                   <div className="block">
                     <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">Jane Baraza</h5>
                     <span className="text-sm leading-4 text-gray-500">Client</span>
