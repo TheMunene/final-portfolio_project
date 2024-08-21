@@ -17,12 +17,13 @@ This project acts as a culmunation of my 12-months ALX SE Program at ALX AFRICA 
 2. Navigate to front-end directory/folder
 3. Run npm install to install all necessary packages and dependencies
 4. Once complete, run npm start to start a server at port 3000
-5. Navigate to your browswer# [http://localhost:3000/] and view the app 
+5. Navigate to your browswer [http://localhost:3000/] and view the app 
+
 ## Authors
 This project is developed by <a href='github.com/TheMunene'>JOSPHAT MUNENE</a>
 
 ## Find the License and terms of use here
-<a href=''>License</a>
+<a href='https://github.com/TheMunene/final-portfolio_project?tab=MIT-1-ov-file'>License</a>
 
 ## Special Recognition
 Special thanks and recognition goes to <a href='https://www.instagram.com/empiredancekenya'>Empire Dance Kenya</a> team for the consent and priviledge to use their brand on this project.
