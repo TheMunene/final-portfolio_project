@@ -1,5 +1,7 @@
 # EMPIRE DANCE KENYA PROJECT
-## Overview
+<img src = 'https://github.com/TheMunene/final-portfolio_project/blob/main/front-end/src/assets/react.png'>
+
+## Project Overview
 This project acts as a culmunition of my 12-months ALX SE Program at ALX AFRICA having specializied in front-end development. It involve a simple web app that enable users(clients) to book their dance classes online, sign in as members and also view more information about Empire Dance Kenya which in this case, is a dance company offering spaces for dance studio, offering dance classes, hosting events etc. Through this i am able to showcase my expertise in Front-end developmnet precisely using React and other libraries.
 ## Frameworks, libraries used in this project
 
@@ -15,8 +17,7 @@ This project acts as a culmunition of my 12-months ALX SE Program at ALX AFRICA 
 2. Navigate to front-end directory/folder
 3. Run npm install to install all necessary packages and dependecies
 4. Once complete, run npm start to start a server at port 3000
-5. Navigate to your browswer[http://localhost:3000/] and view the app
-
+5. # Navigate to your browswer[http://localhost:3000/] and view the app 
 ## Authors
 This project is developed by <a href='github.com/TheMunene'>JOSPHAT MUNENE</a>
 
