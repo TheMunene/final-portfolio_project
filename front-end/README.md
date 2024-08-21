@@ -23,7 +23,7 @@ This project acts as a culmunation of my 12-months ALX SE Program at ALX AFRICA 
 This project is developed by <a href='github.com/TheMunene'>JOSPHAT MUNENE</a>
 
 ## Find the License and terms of use here
-<a href='https://github.com/TheMunene/final-portfolio_project?tab=MIT-1-ov-file'>License</a>
+<a href='https://github.com/TheMunene/final-portfolio_project/tree/main?tab=MIT-1-ov-file'>License</a>
 
 ## Special Recognition
 Special thanks and recognition goes to <a href='https://www.instagram.com/empiredancekenya'>Empire Dance Kenya</a> team for the consent and priviledge to use their brand on this project.
