@@ -8,6 +8,7 @@ import studio from '../assets/studio.jpg';
 import sample from '../assets/sample.jpg';
 import home from '../assets/home.webp';
 import class1 from '../assets/class1.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -38,12 +39,12 @@ const Home = () => {
             <div className="mb-4 text-base text-black">
               Dance traverses generational, economic, cultural, and social spectra and is an obvious tool to achieve consensus and connectivity across all divides. Having recognized this truth, Empire Dance Kenya understands and works to offer solutions to the challenges presenting in the diverse spectra through dance; the world of dance is a peaceful one.
             </div>
-            <a href="/about" className="text-white w-40 bg-black mt-4 focus:ring-4 focus:outline-none focus:ring-gray-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center hover:bg-orange-400">
+            <Link to="/about" className="text-white w-40 bg-black mt-4 focus:ring-4 focus:outline-none focus:ring-gray-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center hover:bg-orange-400">
               <span className="mr-2">Read More</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
               </svg>
-            </a>
+            </Link>
           </div>
           {modalIsOpen &&(
             <div
@@ -111,12 +112,12 @@ const Home = () => {
             <div className="mb-4 text-base text-white">
               Dance traverses generational, economic, cultural, and social spectra and is an obvious tool to achieve consensus and connectivity across all divides. Having recognized this truth, Empire Dance Kenya understands and works to offer solutions to the challenges presenting in the diverse spectra through dance; the world of dance is a peaceful one.
             </div>
-            <a href="/classes" className="text-black w-40 bg-white mt-4 focus:ring-4 focus:outline-none focus:ring-grey-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center hover:bg-orange-400">
+            <Link to="/classes" className="text-black w-40 bg-white mt-4 focus:ring-4 focus:outline-none focus:ring-grey-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center hover:bg-orange-400">
               <span className="mr-2">View Plans</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -127,12 +128,12 @@ const Home = () => {
             <div className="mb-4 text-base text-black">
               Dance traverses generational, economic, cultural, and social spectra and is an obvious tool to achieve consensus and connectivity across all divides. Having recognized this truth, Empire Dance Kenya understands and works to offer solutions to the challenges presenting in the diverse spectra through dance; the world of dance is a peaceful one.
             </div>
-            <a href="/bookings" className="text-white w-40 bg-black mt-4 focus:ring-4 focus:outline-none focus:ring-grey-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center ml-1 hover:bg-orange-400">
+            <Link to="/bookings" className="text-white w-40 bg-black mt-4 focus:ring-4 focus:outline-none focus:ring-grey-100 font-normal rounded-lg text-base px-5 py-2.5 text-center inline-flex items-center ml-1 hover:bg-orange-400">
               <span className="mr-2">Book Now</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
               </svg>
-            </a>
+            </Link>
           </div>
           <div className="relative overflow-hidden aspect-w-16 aspect-h-9 rounded-xl mt-20 md:mt-0">
             <img src={studio} alt="Photo Thumbnail" className="absolute inset-0 w-full rounded-lg h-full object-cover" />
@@ -155,8 +156,8 @@ const Home = () => {
                     Contact us with any query or any idea.
                     </p>
                 </div>
-                    <a
-                        href="/contact"
+                    <Link
+                        to="/contact"
                         className="flex items-center gap-2 bg-orange-400 rounded-full shadow-sm text-lg text-black font-semibold py-4 px-8 transition-all duration-500 hover:bg-gray-300"
                         >Get In Touch
                         <svg
@@ -174,7 +175,7 @@ const Home = () => {
                             stroke-linejoin="round"
                         />
                         </svg>
-                    </a>
+                    </Link>
                 </div>
         </div>
       <Footer />
