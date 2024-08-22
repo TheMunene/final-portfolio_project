@@ -116,10 +116,10 @@ const Choreographers = () => {
           ))}
             {/** dialogue box pop up */}
           {modalIsOpen && selectedMember && (
-            <div className="fixed inset-0 z-30 flex items-end justify-center bg-black/10 p-4 pb-8 backdrop-blur-md sm:items-center lg:p-8" role="dialog" aria-modal="true" aria-labelledby="defaultModalTitle" onClick={closeModal}>
-              <div onClick={(e) => e.stopPropagation()} className="flex max-w-4xl flex-col gap-4 overflow-hidden rounded-xl border border-slate-300 bg-black text-slate-700 dark:text-slate-300 p-8">
+            <div className="fixed inset-0 z-30 flex items-end justify-center bg-black/10 mt-10 p-4 pb-8 backdrop-blur-md sm:items-center lg:p-8" role="dialog" aria-modal="true" aria-labelledby="defaultModalTitle" onClick={closeModal}>
+              <div onClick={(e) => e.stopPropagation()} className="flex max-w-4xl flex-col gap-4 overflow-hidden rounded-xl border border-slate-300 bg-black text-white p-8">
                 <div className="flex items-center justify-end bg-black ">
-                  <button onClick={closeModal} aria-label="close modal" className="bg-black hover:bg-green/80 text-slate-50 rounded-full p-1 h-6 w-6 flex items-center justify-center">
+                  <button onClick={closeModal} aria-label="close modal" className="bg-black hover:bg-green/80 text-white rounded-full p-1 h-6 w-6 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" stroke="currentColor" fill="none" strokeWidth="2" className="w-5 h-5">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
