@@ -86,7 +86,7 @@ const BookingSummary = ({ bookingDetails, setBookingSubmitted, popupTitle, isLog
         doc.text("Thank you for dancing with us!", 105, 160, null, null, "center");
 
         // Save the PDF
-        doc.save("invoice.pdf");
+        doc.save("Invoice.pdf");
     };
 
     return (

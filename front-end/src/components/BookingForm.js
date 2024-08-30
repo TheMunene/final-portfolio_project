@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import app from "../firebase";
 
 const classes = {
-    Monday: ['Lundika', 'Beginner'],
+    Monday: ['Lundika', 'Beginner', 'Balle'],
     Tuesday: ['Intermediate'],
     Wednesday: ['Salsa'],
     Thursday: ['Beginner'],
